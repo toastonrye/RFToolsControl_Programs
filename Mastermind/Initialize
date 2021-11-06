@@ -1,0 +1,906 @@
+[
+  {
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "All Programs Share Same Memory 25 Addresses"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_log",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "var": 23
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "var": 22
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 1
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "INIT"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 5
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "CODE"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 5
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "CODE"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "east",
+            "node": "guess"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "var": 18
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_vector_push_int",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "vector",
+          "value": {
+            "var": 23
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 21
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 2
+    },
+    "opcode": {
+      "id": "eval_vector_indices",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 1
+    },
+    "opcode": {
+      "id": "test_loop",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 18
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 16
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Init Done!"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 5
+    },
+    "opcode": {
+      "id": "eval_random",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 16
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 2
+    },
+    "opcode": {
+      "id": "eval_vector_indices",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 22
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 19
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "north",
+            "node": "1"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "north",
+            "node": "1"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Generate Empty Vectors"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "Memory #23 is Code Answer"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "Memory #24 is latest Guess"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Generates Lookup table Memory #1-16"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "Memory #18 is loop counter"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Clear Guess Board"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "Clear Index #19 #0"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 23
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 24
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 6
+    },
+    "opcode": {
+      "id": "eval_getitem",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "guess"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 21
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_getitem",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "guess"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 18
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "east",
+            "node": "guess"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 21
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_fetchitems",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "south",
+            "node": "guess"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "fun": "last_item"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 0
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 23
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_concat",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "var": 20
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": " U/*"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 18
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 5
+    },
+    "opcode": {
+      "id": "test_loop",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 20
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 4
+          }
+        }
+      ]
+    }
+  }
+]
