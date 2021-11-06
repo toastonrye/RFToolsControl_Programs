@@ -1,0 +1,1442 @@
+[
+  {
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "startSequence"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Enable Mobs"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 6
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 2
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "signalBMInventory"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Skipping BMCalling, Altar Busy"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "signalBMControl"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 0
+    },
+    "opcode": {
+      "id": "eval_string",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Startup Tasks"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_countinv",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "slates"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "item": "bloodmagic:slate",
+            "meta": 3
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 1
+    },
+    "opcode": {
+      "id": "test_loop",
+      "primary": "R",
+      "secondary": "u",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "var": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 6
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 5
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "callSlate5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "up",
+            "node": "mobs"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "down",
+            "node": "mobs"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 9
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Read Inventory Size"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 6
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 3
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_countinv",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "slates"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "item": "bloodmagic:slate",
+            "meta": 0
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "callSlate3"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 4
+    },
+    "opcode": {
+      "id": "test_set",
+      "primary": "L",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "boolean",
+          "value": {
+            "fun": "last_bool"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Altar Free, Test Inventories"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_lock",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "altar"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 7
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 1
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 63
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "callSlate1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Rows 0 \u0026 1 initialize variable to 0"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "Called by redstone pulse"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "Extra pulses will likely break sequence"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Remaining rows do inventory check"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "If low on slates, calls slate making function"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "BMCalling"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_add_numbers",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 0
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 2
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 6
+    },
+    "opcode": {
+      "id": "eval_string",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Inventory Good"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "D",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_countinv",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "slates"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "item": "bloodmagic:slate",
+            "meta": 4
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_releaselock",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "altar"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Init Start"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Slate Inventory Good"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_lock",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "lowBlood"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "The Done bit is var 6 for this"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "program BMInventory but"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "var 1 in BMControl"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "U",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 40
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "L",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_countinv",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "slates"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "item": "bloodmagic:slate",
+            "meta": 2
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 6
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 4
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 7
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "callSlate4"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "L",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "signalBMControl"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 6
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 2
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 31
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "callSlate2"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_countinv",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "slates"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "item": "bloodmagic:slate",
+            "meta": 1
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  }
+]
