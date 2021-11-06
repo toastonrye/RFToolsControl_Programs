@@ -1,0 +1,1192 @@
+[
+  {
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "WHITE"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "BROWN"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 9
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "SILVER"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 7
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "RESET"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_fetchitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "south",
+            "node": "guess"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "fun": "last_item"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 0
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 3
+    },
+    "opcode": {
+      "id": "ev_timer",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 20
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "LIME"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 4
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "R",
+      "secondary": "l",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 0
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 6
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 5
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 19
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 14
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "ORANGE"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "GREEN"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "CYAN"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_add_numbers",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "var": 0
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "PINK"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 7
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "MAGENTA"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "RED"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 11
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "PURPLE"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "GRAY"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 8
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 16
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "LIGHTBLUE"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "BLACK"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 12
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "var": 17
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 19
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 4
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "BLUE"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 0
+    },
+    "opcode": {
+      "id": "eval_getitem",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "guess"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 24
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_vector_push_int",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "vector",
+          "value": {
+            "var": 24
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "fun": "last_int"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "YELLOW"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "D",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 5
+    },
+    "opcode": {
+      "id": "test_loop",
+      "primary": "D",
+      "secondary": "r",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 19
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_concat",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "var": 19
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": " D/*"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 13
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 17
+          }
+        }
+      ]
+    }
+  }
+]
