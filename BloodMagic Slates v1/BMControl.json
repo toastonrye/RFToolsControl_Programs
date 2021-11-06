@@ -1,0 +1,1094 @@
+[
+  {
+    "pos": {
+      "x": 4,
+      "y": 4
+    },
+    "opcode": {
+      "id": "eval_number",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Sequence Start"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 2
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "startSequence"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Sequence Off"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_fetchitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west",
+            "node": "altar"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 2
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 2
+    },
+    "opcode": {
+      "id": "eval_string",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Low Blood"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 9,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_lock",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "lowBlood"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Lo Lo Recovering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "signalBMControl"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 4
+    },
+    "opcode": {
+      "id": "test_eq_var",
+      "primary": "D",
+      "secondary": "r",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 40
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 5
+    },
+    "opcode": {
+      "id": "eval_string",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Charging Orb"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 6
+    },
+    "opcode": {
+      "id": "eval_string",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Stored Orb"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 300
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "down",
+            "node": "mobs"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 8
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "signalAbort"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "slates"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "node": "slates"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Unload Altar Items"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 200
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Blood Lo Lo, Locked"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "signalBMControl"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 1
+    },
+    "opcode": {
+      "id": "test_set",
+      "primary": "R",
+      "secondary": "u",
+      "parameters": [
+        {
+          "type": "boolean",
+          "value": {
+            "fun": "last_bool"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "BMControl Check Blood"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "signalBMInventory"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 1
+    },
+    "opcode": {
+      "id": "eval_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "north",
+            "node": "altar"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_comment",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "This Done bit is var 1 in "
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "BMControl, but var 6 in"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "BMInventory"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west",
+            "node": "altar"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "up",
+            "node": "mobs"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_lock",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "lowBlood"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 1
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "D",
+      "secondary": "r",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "fun": "last_int"
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 12
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "U",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_releaselock",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "lowBlood"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_fetchitems",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west",
+            "node": "altar"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "item": "bloodmagic:blood_orb",
+            "meta": 0,
+            "nbt": "{binding:{name:\"toastonrye\",id:{L:-5027185320575919723L,M:7571351991891346034L}},orb:\"bloodmagic:archmage\"}"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "D",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Charge Orb 5mins"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Disable Mobs"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "U",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "U",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "U",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_comment",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "Latching Function"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "v": "On low, lock altar till high again"
+          }
+        },
+        {
+          "type": "string",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 1
+    },
+    "opcode": {
+      "id": "test_gt_number",
+      "primary": "D",
+      "secondary": "r",
+      "parameters": [
+        {
+          "type": "number",
+          "value": {
+            "fun": "last_int"
+          }
+        },
+        {
+          "type": "number",
+          "value": {
+            "v": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 2
+    },
+    "opcode": {
+      "id": "eval_lock",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "lowBlood"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 3
+    },
+    "opcode": {
+      "id": "test_set",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "boolean",
+          "value": {
+            "fun": "last_bool"
+          }
+        }
+      ]
+    }
+  }
+]
